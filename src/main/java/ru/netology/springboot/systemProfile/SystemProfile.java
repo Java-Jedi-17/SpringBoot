@@ -1,4 +1,5 @@
 package ru.netology.springboot.systemProfile;
 
-public class SystemProfile {
+public interface SystemProfile {
+    String getProfile();
 }
